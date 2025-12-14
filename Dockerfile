@@ -14,5 +14,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 FROM apache/airflow:2.9.0
 RUN pip install --no-cache-dir pandas scikit-learn
+CMD ["uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "8000"]
 # Command to run when the container starts
 CMD ["python", "src/train.py"]
