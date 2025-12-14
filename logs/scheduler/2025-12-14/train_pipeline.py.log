@@ -1,0 +1,263 @@
+[2025-12-14T16:55:03.667+0000] {processor.py:161} INFO - Started process (PID=98) to work on /opt/airflow/dags/train_pipeline.py
+[2025-12-14T16:55:03.670+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_pipeline.py for tasks to queue
+[2025-12-14T16:55:03.674+0000] {logging_mixin.py:188} INFO - [2025-12-14T16:55:03.673+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T16:55:07.207+0000] {processor.py:840} INFO - DAG(s) 'mlops_train_pipeline' retrieved from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T16:55:07.473+0000] {logging_mixin.py:188} INFO - [2025-12-14T16:55:07.472+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:mlops_train_pipeline
+[2025-12-14T16:55:07.509+0000] {logging_mixin.py:188} INFO - [2025-12-14T16:55:07.509+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:mlops_train_pipeline
+[2025-12-14T16:55:07.521+0000] {logging_mixin.py:188} INFO - [2025-12-14T16:55:07.520+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:mlops_train_pipeline
+[2025-12-14T16:55:07.522+0000] {logging_mixin.py:188} INFO - [2025-12-14T16:55:07.521+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-14T16:55:07.534+0000] {logging_mixin.py:188} INFO - [2025-12-14T16:55:07.534+0000] {dag.py:3118} INFO - Creating ORM DAG for mlops_train_pipeline
+[2025-12-14T16:55:07.535+0000] {logging_mixin.py:188} INFO - [2025-12-14T16:55:07.535+0000] {dag.py:3954} INFO - Setting next_dagrun for mlops_train_pipeline to None, run_after=None
+[2025-12-14T16:55:07.556+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_pipeline.py took 3.903 seconds
+[2025-12-14T16:55:37.747+0000] {processor.py:161} INFO - Started process (PID=182) to work on /opt/airflow/dags/train_pipeline.py
+[2025-12-14T16:55:37.748+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_pipeline.py for tasks to queue
+[2025-12-14T16:55:37.751+0000] {logging_mixin.py:188} INFO - [2025-12-14T16:55:37.750+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T16:55:39.293+0000] {processor.py:840} INFO - DAG(s) 'mlops_train_pipeline' retrieved from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T16:55:39.314+0000] {logging_mixin.py:188} INFO - [2025-12-14T16:55:39.314+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-14T16:55:39.326+0000] {logging_mixin.py:188} INFO - [2025-12-14T16:55:39.325+0000] {dag.py:3954} INFO - Setting next_dagrun for mlops_train_pipeline to None, run_after=None
+[2025-12-14T16:55:39.375+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_pipeline.py took 1.636 seconds
+[2025-12-14T16:56:09.519+0000] {processor.py:161} INFO - Started process (PID=266) to work on /opt/airflow/dags/train_pipeline.py
+[2025-12-14T16:56:09.521+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_pipeline.py for tasks to queue
+[2025-12-14T16:56:09.524+0000] {logging_mixin.py:188} INFO - [2025-12-14T16:56:09.524+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T16:56:11.213+0000] {processor.py:840} INFO - DAG(s) 'mlops_train_pipeline' retrieved from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T16:56:11.236+0000] {logging_mixin.py:188} INFO - [2025-12-14T16:56:11.235+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-14T16:56:11.249+0000] {logging_mixin.py:188} INFO - [2025-12-14T16:56:11.249+0000] {dag.py:3954} INFO - Setting next_dagrun for mlops_train_pipeline to None, run_after=None
+[2025-12-14T16:56:11.271+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_pipeline.py took 1.762 seconds
+[2025-12-14T16:56:42.070+0000] {processor.py:161} INFO - Started process (PID=346) to work on /opt/airflow/dags/train_pipeline.py
+[2025-12-14T16:56:42.072+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_pipeline.py for tasks to queue
+[2025-12-14T16:56:42.074+0000] {logging_mixin.py:188} INFO - [2025-12-14T16:56:42.074+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T16:56:43.568+0000] {processor.py:840} INFO - DAG(s) 'mlops_train_pipeline' retrieved from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T16:56:43.633+0000] {logging_mixin.py:188} INFO - [2025-12-14T16:56:43.632+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-14T16:56:43.765+0000] {logging_mixin.py:188} INFO - [2025-12-14T16:56:43.764+0000] {dag.py:3954} INFO - Setting next_dagrun for mlops_train_pipeline to None, run_after=None
+[2025-12-14T16:56:43.794+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_pipeline.py took 1.732 seconds
+[2025-12-14T16:57:14.618+0000] {processor.py:161} INFO - Started process (PID=424) to work on /opt/airflow/dags/train_pipeline.py
+[2025-12-14T16:57:14.620+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_pipeline.py for tasks to queue
+[2025-12-14T16:57:14.622+0000] {logging_mixin.py:188} INFO - [2025-12-14T16:57:14.622+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T16:57:15.907+0000] {processor.py:840} INFO - DAG(s) 'mlops_train_pipeline' retrieved from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T16:57:15.925+0000] {logging_mixin.py:188} INFO - [2025-12-14T16:57:15.924+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-14T16:57:15.938+0000] {logging_mixin.py:188} INFO - [2025-12-14T16:57:15.937+0000] {dag.py:3954} INFO - Setting next_dagrun for mlops_train_pipeline to None, run_after=None
+[2025-12-14T16:57:15.959+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_pipeline.py took 1.348 seconds
+[2025-12-14T16:58:29.348+0000] {processor.py:161} INFO - Started process (PID=65) to work on /opt/airflow/dags/train_pipeline.py
+[2025-12-14T16:58:29.350+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_pipeline.py for tasks to queue
+[2025-12-14T16:58:29.355+0000] {logging_mixin.py:188} INFO - [2025-12-14T16:58:29.354+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T16:58:31.601+0000] {logging_mixin.py:188} INFO - [2025-12-14T16:58:31.595+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/train_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/train_pipeline.py", line 6, in <module>
+    from sklearn.linear_model import LogisticRegression
+ModuleNotFoundError: No module named 'sklearn'
+[2025-12-14T16:58:31.603+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T16:58:31.630+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_pipeline.py took 2.293 seconds
+[2025-12-14T16:59:02.336+0000] {processor.py:161} INFO - Started process (PID=134) to work on /opt/airflow/dags/train_pipeline.py
+[2025-12-14T16:59:02.338+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_pipeline.py for tasks to queue
+[2025-12-14T16:59:02.341+0000] {logging_mixin.py:188} INFO - [2025-12-14T16:59:02.340+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T16:59:03.020+0000] {logging_mixin.py:188} INFO - [2025-12-14T16:59:03.014+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/train_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/train_pipeline.py", line 6, in <module>
+    from sklearn.linear_model import LogisticRegression
+ModuleNotFoundError: No module named 'sklearn'
+[2025-12-14T16:59:03.023+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T16:59:03.046+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_pipeline.py took 0.718 seconds
+[2025-12-14T16:59:33.733+0000] {processor.py:161} INFO - Started process (PID=196) to work on /opt/airflow/dags/train_pipeline.py
+[2025-12-14T16:59:33.740+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_pipeline.py for tasks to queue
+[2025-12-14T16:59:33.746+0000] {logging_mixin.py:188} INFO - [2025-12-14T16:59:33.744+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T16:59:34.592+0000] {logging_mixin.py:188} INFO - [2025-12-14T16:59:34.584+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/train_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/train_pipeline.py", line 6, in <module>
+    from sklearn.linear_model import LogisticRegression
+ModuleNotFoundError: No module named 'sklearn'
+[2025-12-14T16:59:34.595+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T16:59:34.618+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_pipeline.py took 0.921 seconds
+[2025-12-14T17:00:05.302+0000] {processor.py:161} INFO - Started process (PID=258) to work on /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:00:05.303+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_pipeline.py for tasks to queue
+[2025-12-14T17:00:05.305+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:00:05.304+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:00:05.815+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:00:05.805+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/train_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/train_pipeline.py", line 6, in <module>
+    from sklearn.linear_model import LogisticRegression
+ModuleNotFoundError: No module named 'sklearn'
+[2025-12-14T17:00:05.818+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:00:05.835+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_pipeline.py took 0.540 seconds
+[2025-12-14T17:00:36.169+0000] {processor.py:161} INFO - Started process (PID=321) to work on /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:00:36.170+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_pipeline.py for tasks to queue
+[2025-12-14T17:00:36.171+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:00:36.171+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:00:36.833+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:00:36.816+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/train_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/train_pipeline.py", line 6, in <module>
+    from sklearn.linear_model import LogisticRegression
+ModuleNotFoundError: No module named 'sklearn'
+[2025-12-14T17:00:36.836+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:00:36.872+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_pipeline.py took 0.711 seconds
+[2025-12-14T17:02:43.702+0000] {processor.py:161} INFO - Started process (PID=98) to work on /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:02:43.704+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_pipeline.py for tasks to queue
+[2025-12-14T17:02:43.710+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:02:43.709+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:02:48.420+0000] {processor.py:840} INFO - DAG(s) 'mlops_train_pipeline' retrieved from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:02:48.650+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:02:48.649+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-14T17:02:48.674+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:02:48.674+0000] {dag.py:3954} INFO - Setting next_dagrun for mlops_train_pipeline to None, run_after=None
+[2025-12-14T17:02:48.718+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_pipeline.py took 5.037 seconds
+[2025-12-14T17:03:19.553+0000] {processor.py:161} INFO - Started process (PID=176) to work on /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:03:19.554+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_pipeline.py for tasks to queue
+[2025-12-14T17:03:19.557+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:03:19.556+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:03:21.244+0000] {processor.py:840} INFO - DAG(s) 'mlops_train_pipeline' retrieved from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:03:21.273+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:03:21.272+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-14T17:03:21.291+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:03:21.290+0000] {dag.py:3954} INFO - Setting next_dagrun for mlops_train_pipeline to None, run_after=None
+[2025-12-14T17:03:21.318+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_pipeline.py took 1.773 seconds
+[2025-12-14T17:03:51.792+0000] {processor.py:161} INFO - Started process (PID=248) to work on /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:03:51.794+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_pipeline.py for tasks to queue
+[2025-12-14T17:03:51.796+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:03:51.796+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:03:53.005+0000] {processor.py:840} INFO - DAG(s) 'mlops_train_pipeline' retrieved from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:03:53.024+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:03:53.023+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-14T17:03:53.034+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:03:53.034+0000] {dag.py:3954} INFO - Setting next_dagrun for mlops_train_pipeline to None, run_after=None
+[2025-12-14T17:03:53.058+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_pipeline.py took 1.272 seconds
+[2025-12-14T17:04:23.387+0000] {processor.py:161} INFO - Started process (PID=323) to work on /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:04:23.388+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_pipeline.py for tasks to queue
+[2025-12-14T17:04:23.390+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:04:23.390+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:04:24.860+0000] {processor.py:840} INFO - DAG(s) 'mlops_train_pipeline' retrieved from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:04:24.885+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:04:24.885+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-14T17:04:25.024+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:04:25.024+0000] {dag.py:3954} INFO - Setting next_dagrun for mlops_train_pipeline to None, run_after=None
+[2025-12-14T17:04:25.050+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_pipeline.py took 1.670 seconds
+[2025-12-14T17:07:10.426+0000] {processor.py:161} INFO - Started process (PID=89) to work on /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:07:10.429+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_pipeline.py for tasks to queue
+[2025-12-14T17:07:10.434+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:07:10.433+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:07:14.394+0000] {processor.py:840} INFO - DAG(s) 'mlops_train_pipeline' retrieved from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:07:14.569+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:07:14.568+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-14T17:07:14.581+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:07:14.581+0000] {dag.py:3954} INFO - Setting next_dagrun for mlops_train_pipeline to None, run_after=None
+[2025-12-14T17:07:14.605+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_pipeline.py took 4.191 seconds
+[2025-12-14T17:07:44.872+0000] {processor.py:161} INFO - Started process (PID=165) to work on /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:07:44.873+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_pipeline.py for tasks to queue
+[2025-12-14T17:07:44.876+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:07:44.875+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:07:47.737+0000] {processor.py:840} INFO - DAG(s) 'mlops_train_pipeline' retrieved from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:07:47.755+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:07:47.754+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-14T17:07:47.766+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:07:47.766+0000] {dag.py:3954} INFO - Setting next_dagrun for mlops_train_pipeline to None, run_after=None
+[2025-12-14T17:07:47.792+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_pipeline.py took 2.927 seconds
+[2025-12-14T17:08:18.521+0000] {processor.py:161} INFO - Started process (PID=243) to work on /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:08:18.522+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_pipeline.py for tasks to queue
+[2025-12-14T17:08:18.525+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:08:18.524+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:08:19.932+0000] {processor.py:840} INFO - DAG(s) 'mlops_train_pipeline' retrieved from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:08:19.952+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:08:19.952+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-14T17:08:19.967+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:08:19.966+0000] {dag.py:3954} INFO - Setting next_dagrun for mlops_train_pipeline to None, run_after=None
+[2025-12-14T17:08:19.988+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_pipeline.py took 1.474 seconds
+[2025-12-14T17:08:50.140+0000] {processor.py:161} INFO - Started process (PID=323) to work on /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:08:50.142+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_pipeline.py for tasks to queue
+[2025-12-14T17:08:50.146+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:08:50.145+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:08:52.871+0000] {processor.py:840} INFO - DAG(s) 'mlops_train_pipeline' retrieved from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:08:53.016+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:08:53.015+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-14T17:08:53.028+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:08:53.027+0000] {dag.py:3954} INFO - Setting next_dagrun for mlops_train_pipeline to None, run_after=None
+[2025-12-14T17:08:53.059+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_pipeline.py took 2.925 seconds
+[2025-12-14T17:09:23.602+0000] {processor.py:161} INFO - Started process (PID=400) to work on /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:09:23.604+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_pipeline.py for tasks to queue
+[2025-12-14T17:09:23.606+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:09:23.606+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:09:25.211+0000] {processor.py:840} INFO - DAG(s) 'mlops_train_pipeline' retrieved from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:09:25.236+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:09:25.235+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-14T17:09:25.362+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:09:25.361+0000] {dag.py:3954} INFO - Setting next_dagrun for mlops_train_pipeline to None, run_after=None
+[2025-12-14T17:09:25.390+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_pipeline.py took 1.796 seconds
+[2025-12-14T17:09:55.576+0000] {processor.py:161} INFO - Started process (PID=476) to work on /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:09:55.578+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_pipeline.py for tasks to queue
+[2025-12-14T17:09:55.580+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:09:55.580+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:09:56.888+0000] {processor.py:840} INFO - DAG(s) 'mlops_train_pipeline' retrieved from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:09:56.907+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:09:56.907+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-14T17:09:57.023+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:09:57.022+0000] {dag.py:3954} INFO - Setting next_dagrun for mlops_train_pipeline to None, run_after=None
+[2025-12-14T17:09:57.048+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_pipeline.py took 1.481 seconds
+[2025-12-14T17:10:08.003+0000] {processor.py:161} INFO - Started process (PID=516) to work on /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:10:08.004+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_pipeline.py for tasks to queue
+[2025-12-14T17:10:08.007+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:10:08.006+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:10:09.370+0000] {processor.py:840} INFO - DAG(s) 'mlops_train_pipeline' retrieved from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:10:09.389+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:10:09.389+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-14T17:10:09.401+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:10:09.400+0000] {dag.py:3954} INFO - Setting next_dagrun for mlops_train_pipeline to None, run_after=None
+[2025-12-14T17:10:09.428+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_pipeline.py took 1.433 seconds
+[2025-12-14T17:10:39.928+0000] {processor.py:161} INFO - Started process (PID=587) to work on /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:10:39.929+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_pipeline.py for tasks to queue
+[2025-12-14T17:10:39.932+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:10:39.931+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:10:41.158+0000] {processor.py:840} INFO - DAG(s) 'mlops_train_pipeline' retrieved from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:10:41.272+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:10:41.272+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-14T17:10:41.284+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:10:41.284+0000] {dag.py:3954} INFO - Setting next_dagrun for mlops_train_pipeline to None, run_after=None
+[2025-12-14T17:10:41.306+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_pipeline.py took 1.386 seconds
+[2025-12-14T17:11:11.549+0000] {processor.py:161} INFO - Started process (PID=658) to work on /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:11:11.551+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_pipeline.py for tasks to queue
+[2025-12-14T17:11:11.554+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:11:11.554+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:11:13.048+0000] {processor.py:840} INFO - DAG(s) 'mlops_train_pipeline' retrieved from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:11:13.072+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:11:13.071+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-14T17:11:13.087+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:11:13.086+0000] {dag.py:3954} INFO - Setting next_dagrun for mlops_train_pipeline to None, run_after=None
+[2025-12-14T17:11:13.113+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_pipeline.py took 1.571 seconds
+[2025-12-14T17:11:43.380+0000] {processor.py:161} INFO - Started process (PID=729) to work on /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:11:43.381+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_pipeline.py for tasks to queue
+[2025-12-14T17:11:43.383+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:11:43.383+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:11:44.873+0000] {processor.py:840} INFO - DAG(s) 'mlops_train_pipeline' retrieved from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:11:44.921+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:11:44.921+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-14T17:11:44.953+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:11:44.953+0000] {dag.py:3954} INFO - Setting next_dagrun for mlops_train_pipeline to None, run_after=None
+[2025-12-14T17:11:44.979+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_pipeline.py took 1.606 seconds
+[2025-12-14T17:12:15.902+0000] {processor.py:161} INFO - Started process (PID=800) to work on /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:12:15.903+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_pipeline.py for tasks to queue
+[2025-12-14T17:12:15.906+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:12:15.906+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:12:17.448+0000] {processor.py:840} INFO - DAG(s) 'mlops_train_pipeline' retrieved from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:12:17.473+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:12:17.472+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-14T17:12:17.488+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:12:17.488+0000] {dag.py:3954} INFO - Setting next_dagrun for mlops_train_pipeline to None, run_after=None
+[2025-12-14T17:12:17.517+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_pipeline.py took 1.622 seconds
+[2025-12-14T17:12:47.713+0000] {processor.py:161} INFO - Started process (PID=873) to work on /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:12:47.715+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_pipeline.py for tasks to queue
+[2025-12-14T17:12:47.718+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:12:47.717+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:12:49.316+0000] {processor.py:840} INFO - DAG(s) 'mlops_train_pipeline' retrieved from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:12:49.339+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:12:49.338+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-14T17:12:49.350+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:12:49.349+0000] {dag.py:3954} INFO - Setting next_dagrun for mlops_train_pipeline to None, run_after=None
+[2025-12-14T17:12:49.374+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_pipeline.py took 1.675 seconds
+[2025-12-14T17:13:19.450+0000] {processor.py:161} INFO - Started process (PID=948) to work on /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:13:19.452+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_pipeline.py for tasks to queue
+[2025-12-14T17:13:19.457+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:13:19.456+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:13:20.738+0000] {processor.py:840} INFO - DAG(s) 'mlops_train_pipeline' retrieved from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:13:20.759+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:13:20.758+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-14T17:13:20.771+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:13:20.770+0000] {dag.py:3954} INFO - Setting next_dagrun for mlops_train_pipeline to None, run_after=None
+[2025-12-14T17:13:20.795+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_pipeline.py took 1.357 seconds
+[2025-12-14T17:13:51.661+0000] {processor.py:161} INFO - Started process (PID=1021) to work on /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:13:51.662+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_pipeline.py for tasks to queue
+[2025-12-14T17:13:51.665+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:13:51.664+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:13:53.219+0000] {processor.py:840} INFO - DAG(s) 'mlops_train_pipeline' retrieved from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:13:53.237+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:13:53.236+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-14T17:13:53.248+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:13:53.247+0000] {dag.py:3954} INFO - Setting next_dagrun for mlops_train_pipeline to None, run_after=None
+[2025-12-14T17:13:53.267+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_pipeline.py took 1.613 seconds
+[2025-12-14T17:14:23.647+0000] {processor.py:161} INFO - Started process (PID=1096) to work on /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:14:23.649+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_pipeline.py for tasks to queue
+[2025-12-14T17:14:23.651+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:14:23.651+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:14:25.336+0000] {processor.py:840} INFO - DAG(s) 'mlops_train_pipeline' retrieved from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:14:25.358+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:14:25.357+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-14T17:14:25.372+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:14:25.372+0000] {dag.py:3954} INFO - Setting next_dagrun for mlops_train_pipeline to None, run_after=None
+[2025-12-14T17:14:25.450+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_pipeline.py took 1.810 seconds
+[2025-12-14T17:14:56.384+0000] {processor.py:161} INFO - Started process (PID=1171) to work on /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:14:56.385+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_pipeline.py for tasks to queue
+[2025-12-14T17:14:56.388+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:14:56.387+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:14:57.961+0000] {processor.py:840} INFO - DAG(s) 'mlops_train_pipeline' retrieved from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:14:57.981+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:14:57.980+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-14T17:14:57.991+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:14:57.991+0000] {dag.py:3954} INFO - Setting next_dagrun for mlops_train_pipeline to None, run_after=None
+[2025-12-14T17:14:58.011+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_pipeline.py took 1.636 seconds
+[2025-12-14T17:15:28.090+0000] {processor.py:161} INFO - Started process (PID=1249) to work on /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:15:28.092+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_pipeline.py for tasks to queue
+[2025-12-14T17:15:28.095+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:15:28.094+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:15:29.319+0000] {processor.py:840} INFO - DAG(s) 'mlops_train_pipeline' retrieved from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:15:29.338+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:15:29.337+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-14T17:15:29.349+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:15:29.349+0000] {dag.py:3954} INFO - Setting next_dagrun for mlops_train_pipeline to None, run_after=None
+[2025-12-14T17:15:29.369+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_pipeline.py took 1.287 seconds
+[2025-12-14T17:16:00.168+0000] {processor.py:161} INFO - Started process (PID=1326) to work on /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:16:00.170+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_pipeline.py for tasks to queue
+[2025-12-14T17:16:00.172+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:16:00.172+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:16:02.221+0000] {processor.py:840} INFO - DAG(s) 'mlops_train_pipeline' retrieved from /opt/airflow/dags/train_pipeline.py
+[2025-12-14T17:16:02.266+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:16:02.265+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-14T17:16:02.292+0000] {logging_mixin.py:188} INFO - [2025-12-14T17:16:02.291+0000] {dag.py:3954} INFO - Setting next_dagrun for mlops_train_pipeline to None, run_after=None
+[2025-12-14T17:16:02.326+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_pipeline.py took 2.165 seconds
