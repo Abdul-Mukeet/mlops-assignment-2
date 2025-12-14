@@ -1,6 +1,7 @@
 import pandas as pd
 import pickle
 import os
+import sys
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 
@@ -26,6 +27,10 @@ def split_data(df):
 
 def train_model(X, y):
     """Trains a simple Logistic Regression model."""
+    # Safety Check: Ensure we have at least 2 classes (e.g., 0 and 1)
+    if y.nunique() < 2:
+        raise ValueError(f"Training failed: The training set must contain at least 2 classes, but found only: {y.unique()}")
+
     model = LogisticRegression()
     model.fit(X, y)
     return model
@@ -44,14 +49,24 @@ def main():
 
     print("Preprocessing data...")
     X, y = split_data(df)
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+    # UPDATED: Added stratify=y to ensure both classes exist in train/test splits
+    # If the dataset is extremely small (like in tests), we wrap it in try-except to fallback without stratification
+    try:
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
+    except ValueError:
+        print("Warning: Dataset too small for stratification. Proceeding without it.")
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
     print("Training model...")
-    model = train_model(X_train, y_train)
-
-    print(f"Saving model to {MODEL_OUTPUT_PATH}...")
-    save_model(model, MODEL_OUTPUT_PATH)
-    print("Training complete!")
+    try:
+        model = train_model(X_train, y_train)
+        print(f"Saving model to {MODEL_OUTPUT_PATH}...")
+        save_model(model, MODEL_OUTPUT_PATH)
+        print("Training complete!")
+    except ValueError as e:
+        print(f"Error during training: {e}")
+        sys.exit(1)
 
 
 if __name__ == "__main__":

@@ -42,12 +42,15 @@ jobs:
         export PYTHONPATH=$PYTHONPATH:$(pwd)
         pytest tests/
 
-    # 6. Verify Training Script Runs (Dry Run)
-    # We create a dummy file just so the script doesn't crash on "File Not Found"
+    # 6. Verify Training Script Runs (Integration Test)
     - name: Verify Training Script
       run: |
         mkdir -p data
-        echo "col1,col2,target" > data/dataset.csv
-        echo "1,2,0" >> data/dataset.csv
-        echo "3,4,1" >> data/dataset.csv
+        echo "col1,target" > data/dataset.csv
+        echo "1,0" >> data/dataset.csv
+        echo "2,1" >> data/dataset.csv
+        echo "3,0" >> data/dataset.csv
+        echo "4,1" >> data/dataset.csv
+        echo "5,0" >> data/dataset.csv
+        echo "6,1" >> data/dataset.csv
         python src/train.py
