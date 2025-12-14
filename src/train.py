@@ -28,7 +28,6 @@ def split_data(df):
 def train_model(X, y):
     """Trains a simple Logistic Regression model."""
     # Safety Check: Ensure we have at least 2 classes (e.g., 0 and 1)
-    # This prevents the "ValueError: This solver needs samples of at least 2 classes" error
     if y.nunique() < 2:
         raise ValueError(f"Training failed: The training set must contain at least 2 classes, but found only: {y.unique()}")
 
@@ -51,8 +50,8 @@ def main():
     print("Preprocessing data...")
     X, y = split_data(df)
 
-    # UPDATED: Added stratify=y to ensure both classes exist in train/test splits.
-    # We use a try-except block because stratify can fail if the dataset is extremely small (less than 2 rows of a class).
+    # CRITICAL FIX: stratify=y forces the train set to have both 0s and 1s.
+    # We use a try-except because on very tiny datasets, stratify can sometimes fail.
     try:
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
     except ValueError:
@@ -66,7 +65,6 @@ def main():
         save_model(model, MODEL_OUTPUT_PATH)
         print("Training complete!")
     except ValueError as e:
-        # Catch the error gracefully and print it so we know what went wrong
         print(f"Error during training: {e}")
         sys.exit(1)
 
