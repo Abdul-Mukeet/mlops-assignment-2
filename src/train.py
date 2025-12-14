@@ -4,44 +4,55 @@ import os
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 
-# Define file paths (Must match your DVC command)
+# Define global paths
 DATA_PATH = 'data/dataset.csv'
 MODEL_OUTPUT_PATH = 'models/model.pkl'
 
 
-def train():
-    # 1. Load the dataset
-    print(f"Loading data from {DATA_PATH}...")
-    try:
-        df = pd.read_csv(DATA_PATH)
-    except FileNotFoundError:
-        print(f"Error: File not found at {DATA_PATH}. Please make sure data/dataset.csv exists.")
-        return
+def load_data(file_path):
+    """Loads the CSV file and returns a DataFrame."""
+    if not os.path.exists(file_path):
+        raise FileNotFoundError(f"File not found: {file_path}")
+    return pd.read_csv(file_path)
 
-    # 2. Preprocessing (Assuming the last column is the target)
-    # Adjust 'iloc' if your target column is different
-    X = df.iloc[:, :-1]  # All columns except the last one
-    y = df.iloc[:, -1]  # The last column is the target
 
-    # Split data
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+def split_data(df):
+    """Splits data into X and y."""
+    # Assuming last column is target. Adjust if needed.
+    X = df.iloc[:, :-1]
+    y = df.iloc[:, -1]
+    return X, y
 
-    # 3. Train the model
-    print("Training Logistic Regression model...")
+
+def train_model(X, y):
+    """Trains a simple Logistic Regression model."""
     model = LogisticRegression()
-    model.fit(X_train, y_train)
+    model.fit(X, y)
+    return model
 
-    # 4. Save the model
-    print(f"Saving model to {MODEL_OUTPUT_PATH}...")
 
-    # Ensure the 'models' directory exists
-    os.makedirs(os.path.dirname(MODEL_OUTPUT_PATH), exist_ok=True)
-
-    with open(MODEL_OUTPUT_PATH, 'wb') as f:
+def save_model(model, output_path):
+    """Saves the trained model to a file."""
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    with open(output_path, 'wb') as f:
         pickle.dump(model, f)
 
+
+def main():
+    print(f"Loading data from {DATA_PATH}...")
+    df = load_data(DATA_PATH)
+
+    print("Preprocessing data...")
+    X, y = split_data(df)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+    print("Training model...")
+    model = train_model(X_train, y_train)
+
+    print(f"Saving model to {MODEL_OUTPUT_PATH}...")
+    save_model(model, MODEL_OUTPUT_PATH)
     print("Training complete!")
 
 
 if __name__ == "__main__":
-    train()
+    main()

@@ -1,0 +1,53 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. Checkout the repository code
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    # 2. Setup Python environment
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.9"
+
+    # 3. Install dependencies
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    # 4. Linting (Check for code style errors)
+    - name: Run Linting (Flake8)
+      run: |
+        # Stop the build if there are Python syntax errors or undefined names
+        flake8 src tests --count --select=E9,F63,F7,F82 --show-source --statistics
+        # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
+        flake8 src tests --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+
+    # 5. Run Unit Tests
+    - name: Run Unit Tests
+      run: |
+        # This uses the PYTHONPATH to ensure it finds the 'src' folder
+        export PYTHONPATH=$PYTHONPATH:$(pwd)
+        pytest tests/
+
+    # 6. Verify Training Script Runs (Dry Run)
+    # We create a dummy file just so the script doesn't crash on "File Not Found"
+    - name: Verify Training Script
+      run: |
+        mkdir -p data
+        echo "col1,col2,target" > data/dataset.csv
+        echo "1,2,0" >> data/dataset.csv
+        echo "3,4,1" >> data/dataset.csv
+        python src/train.py
